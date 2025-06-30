@@ -1,0 +1,74 @@
+/* ✅ Set global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(215, 86%, 55%);
+  color:rgb(12, 12, 14);
+}
+
+/* ✅ Navbar inline style */
+.navbar nav {
+  background-color: hsl(215, 86%, 55%);
+  padding: 1rem;
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  display: inline-block;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* ✅ Section styling */
+.section {
+  padding: 2rem;
+  background-color: hsl(215, 86%, 55%);
+  margin: 1rem;
+  border-radius: 4px;
+}
+
+/* ✅ Headings */
+.heading {
+  color: #0077cc;
+}
+
+/* ✅ Work items */
+.work-item {
+  margin-bottom: 0.5rem;
+}
+
+/* ✅ Form styling */
+.form-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #005fa3;
+}
+
+/* ✅ Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
