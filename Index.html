@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ✅ NAVIGATION BAR -->
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ✅ HOME SECTION -->
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hello, I’m <strong>Maria Rais</strong>, an aspiring web developer.</p>
+    <!-- Add a video or audio here -->
+    <video controls width="320">
+      <source src="video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- ✅ ABOUT SECTION -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am passionate about web development, design, and coding. I love learning new technologies and building cool projects.</p>
+  </section>
+
+  <!-- ✅ WORK SECTION -->
+  <section id="work">
+    <h2>My Work</h2>
+    <ul>
+      <li class="work-item">📁 <strong>Project 1</strong>: Personal Blog Website</li>
+      <li class="work-item">📁 <strong>Project 2</strong>: Restaurant Menu Page</li>
+      <li class="work-item">📁 <strong>Project 3</strong>: Responsive Portfolio</li>
+    </ul>
+  </section>
+
+  <!-- ✅ RESUME SECTION (USING TABLE) -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <table border="1" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Experience</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2024</td>
+          <td>Internship at XYZ Web Agency</td>
+        </tr>
+        <tr>
+          <td>2023</td>
+          <td>Completed HTML & CSS Certification</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ✅ CONTACT SECTION (USING FORM) -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- ✅ FOOTER -->
+  <footer>
+    <p>&copy; 2025 Maria Rais. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
